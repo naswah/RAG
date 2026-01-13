@@ -1,6 +1,7 @@
 langchain
 langchain-core
 langchain-community
+langchain-google-genai
 pypdf
 pymupdf
 sentence-transformers
@@ -10,3 +11,5 @@ langchain-groq
 python-dotenv
 langchain_openai
 langgraph
+qdrant-client
+matplotlib
