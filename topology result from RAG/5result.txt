@@ -7,11 +7,11 @@
         {
           "loop_id": 1,
           "region": "MATERIAL",
-          "nodes": 8,
-          "edges": 8,
+          "nodes": 6,
+          "edges": 6,
           "edge_type": {
             "straight": 4,
-            "arc": 4
+            "chamfer": 2
           }
         }
       ],
@@ -22,9 +22,26 @@
           "nodes": 0,
           "edges": 0,
           "type": "Circle"
-        },
+        }
+      ]
+    },
+    {
+      "view": "top",
+      "outer_closed_loops": [
         {
           "loop_id": 3,
+          "region": "MATERIAL",
+          "nodes": 6,
+          "edges": 6,
+          "edge_type": {
+            "straight": 4,
+            "chamfer": 2
+          }
+        }
+      ],
+      "inner_closed_loops": [
+        {
+          "loop_id": 4,
           "region": "VOID",
           "nodes": 0,
           "edges": 0,
@@ -36,13 +53,13 @@
       "view": "side",
       "outer_closed_loops": [
         {
-          "loop_id": 1,
+          "loop_id": 5,
           "region": "MATERIAL",
-          "nodes": 4,
-          "edges": 4,
+          "nodes": 8,
+          "edges": 8,
           "edge_type": {
-            "straight": 4,
-            "chamfer": 0
+            "straight": 6,
+            "curved": 2
           }
         }
       ],

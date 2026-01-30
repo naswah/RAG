@@ -1,0 +1,103 @@
+<<<TOPOLOGY_START>>>
+{
+  "views": [
+    {
+      "view": "top",
+      "outer_closed_loops": [
+        {
+          "loop_id": 1,
+          "region": "MATERIAL",
+          "nodes": 6,
+          "edges": 6,
+          "edge_type": {
+            "straight": 4,
+            "chamfer": 2
+          },
+          "entity_type": "Polygon"
+        }
+      ],
+      "inner_closed_loops": [
+        {
+          "loop_id": 2,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "entity_type": "Circle"
+        },
+        {
+          "loop_id": 3,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "entity_type": "Circle"
+        },
+        {
+          "loop_id": 4,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "entity_type": "Circle"
+        },
+        {
+          "loop_id": 5,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "entity_type": "Circle"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "vertical_alignment",
+          "entities": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "vertical_alignment",
+          "entities": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "symmetry",
+          "axis": "centerline",
+          "entities": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "view": "side",
+      "outer_closed_loops": [
+        {
+          "loop_id": 1,
+          "region": "MATERIAL",
+          "nodes": 12,
+          "edges": 12,
+          "edge_type": {
+            "straight": 8,
+            "curved": 4
+          },
+          "entity_type": "Z-Profile"
+        }
+      ],
+      "inner_closed_loops": []
+    }
+  ]
+}
+<<<TOPOLOGY_END>>>

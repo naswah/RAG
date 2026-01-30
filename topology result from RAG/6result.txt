@@ -1,0 +1,92 @@
+<<<TOPOLOGY_START>>>
+{
+  "views": [
+    {
+      "view": "front",
+      "description": "Vertical Leg (Face A)",
+      "outer_closed_loops": [
+        {
+          "loop_id": 1,
+          "region": "MATERIAL",
+          "nodes": 6,
+          "edges": 6,
+          "edge_type": {
+            "straight": 4,
+            "chamfer": 2
+          }
+        }
+      ],
+      "inner_closed_loops": [
+        {
+          "loop_id": 2,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "diameter": 6.5
+        },
+        {
+          "loop_id": 3,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "diameter": 6.5
+        }
+      ]
+    },
+    {
+      "view": "top",
+      "description": "Horizontal Leg (Face B)",
+      "outer_closed_loops": [
+        {
+          "loop_id": 4,
+          "region": "MATERIAL",
+          "nodes": 6,
+          "edges": 6,
+          "edge_type": {
+            "straight": 4,
+            "chamfer": 2
+          }
+        }
+      ],
+      "inner_closed_loops": [
+        {
+          "loop_id": 5,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "diameter": 6.5
+        },
+        {
+          "loop_id": 6,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle",
+          "diameter": 6.5
+        }
+      ]
+    },
+    {
+      "view": "side",
+      "description": "L-Profile",
+      "outer_closed_loops": [
+        {
+          "loop_id": 7,
+          "region": "MATERIAL",
+          "nodes": 8,
+          "edges": 8,
+          "edge_type": {
+            "straight": 6,
+            "arc": 2,
+            "chamfer": 0
+          }
+        }
+      ],
+      "inner_closed_loops": []
+    }
+  ]
+}
+<<<TOPOLOGY_END>>>

@@ -1,0 +1,87 @@
+<<<TOPOLOGY_START>>>
+{
+  "views": [
+    {
+      "view": "top",
+      "outer_closed_loops": [
+        {
+          "loop_id": 1,
+          "region": "MATERIAL",
+          "nodes": 6,
+          "edges": 6,
+          "edge_type": {
+            "straight": 4,
+            "chamfer": 2
+          },
+          "description": 
+"Rectangular boundary with two chamfered corners on the right edge"
+        }
+      ],
+      "inner_closed_loops": [
+        {
+          "loop_id": 2,
+          "region": "VOID",
+          "entity_type": "Slot",
+          "nodes": 4,
+          "edges": 4,
+          "edge_type": {
+            "straight": 2,
+            "curved": 2
+          },
+          "relationships": {
+            "location": "Left Flange",
+            "feature_id": "N10"
+          }
+        },
+        {
+          "loop_id": 3,
+          "region": "VOID",
+          "entity_type": "Slot",
+          "nodes": 4,
+          "edges": 4,
+          "edge_type": {
+            "straight": 2,
+            "curved": 2
+          },
+          "relationships": {
+            "location": "Left Flange",
+            "feature_id": "N10"
+          }
+        },
+        {
+          "loop_id": 4,
+          "region": "VOID",
+          "entity_type": "Circle",
+          "nodes": 0,
+          "edges": 1,
+          "edge_type": {
+            "curved": 1
+          },
+          "relationships": {
+            "location": "Right Flange",
+            "feature_id": "D35"
+          }
+        }
+      ]
+    },
+    {
+      "view": "side",
+      "outer_closed_loops": [
+        {
+          "loop_id": 5,
+          "region": "MATERIAL",
+          "entity_type": "Profile",
+          "nodes": 12,
+          "edges": 12,
+          "edge_type": {
+            "straight": 8,
+            "fillet": 4
+          },
+          "description": "Z-shaped cross-section with thickness and bend radii"
+        }
+      ],
+      "inner_closed_loops": []
+    }
+  ]
+}
+<<<TOPOLOGY_END>>>
