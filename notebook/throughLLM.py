@@ -38,7 +38,8 @@ SYSTEM_INSTRUCTION_TOPOLOGY ="""
             "edges": 4,
             "edge_type": {
                 "straight": 4,
-                "chamfer": 0
+                "chamfer": 0,
+                "arc": 0
             }
             }
         ],
@@ -49,6 +50,17 @@ SYSTEM_INSTRUCTION_TOPOLOGY ="""
             "nodes": 0,
             "edges": 0,
             "type": "Circle"
+            },
+            {
+            "loop_id": 3,
+            "region": "VOID",
+            "nodes": 4,
+            "edges": 4,
+            "edge_type": {
+                "straight": 2,
+                "arc": 2
+            }
+            "type": "Slot"
             }
         ]
         }
@@ -108,7 +120,7 @@ def extract_topology(image_path: str, output_topology_path: str):
 
 # ----------------- MAIN -----------------
 if __name__ == "__main__":
-    img_in = r"E:\office\Topology extration and detection\images\2.png"
-    topo_out = r"E:\office\Topology extration and detection\output files\result2_topology.txt"
+    img_in = "/Users/naswahmanandhar/Desktop/RAG/images/22.png"
+    topo_out = "/Users/naswahmanandhar/Desktop/RAG/LLM topology result/22LLM.txt"
 
     extract_topology(img_in, topo_out)

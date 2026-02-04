@@ -1,0 +1,31 @@
+<<<TOPOLOGY_START>>>
+{
+  "views": [
+    {
+      "view": "top",
+      "outer_closed_loops": [
+        {
+          "loop_id": 1,
+          "region": "MATERIAL",
+          "nodes": 4,
+          "edges": 4,
+          "edge_type": {
+            "straight": 4,
+            "chamfer": 0,
+            "arc": 0
+          }
+        }
+      ],
+      "inner_closed_loops": [
+        {
+          "loop_id": 2,
+          "region": "VOID",
+          "nodes": 0,
+          "edges": 0,
+          "type": "Circle"
+        }
+      ]
+    }
+  ]
+}
+<<<TOPOLOGY_END>>>
